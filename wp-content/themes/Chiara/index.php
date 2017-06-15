@@ -1,4 +1,4 @@
-<?php get_header (); ?>
+<?php get_header(); ?>
 <!-- form begin-->
     <form>
         <div class="container-fluid"></div>
@@ -49,4 +49,4 @@
                             </div>
                         </div>
                     </form>
-                    <?php get_footer (); ?>
+                    <?php get_footer(); ?>
