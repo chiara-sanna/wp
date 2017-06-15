@@ -1,46 +1,5 @@
-
-		<!DOCTYPE html>
-		<html>
-		<head>
-			<title></title>
-			<link rel="stylesheet" type="text/css" href="vendors/css/bootstrap.min.css">
-			 <meta name="viewport" content="width=device-width, initial-scale=1">
-			<link rel="stylesheet" type="text/css" href="css/main.css">
-		</head>
-		<body>
-			<div class="jumbotron">
-				<div class="container-fluid">
-
-		
-      <nav class="navbar navbar-default">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#"></a>
-        </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Arredamenti interni</a></li>
-                <li><a href="#">Arredamenti esterni</a></li>
-                <li><a href="#">Cucine</a></li>
-                <li><a href="#">Pub</a></li>
-                <li><a href="#">Antiquariato</a></li>
-                <li><a href="#contact">Contact us</a></li>
-            </ul>
-        </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-    </nav>
-
-
-                
-
-
-    <!-- form begin-->
+<?php get_header (); ?>
+<!-- form begin-->
     <form>
         <div class="container-fluid"></div>
         <div class="row kiara" id="contact">
@@ -90,11 +49,4 @@
                             </div>
                         </div>
                     </form>
-
-                    <script type="text/javascript" src="vendors/js/jquery.min.js"></script>
-                    <script type="text/javascript" src="vendors/js/bootstrap.min.js"></script>
-                    <script type="text/javascript" src="vendors/js/bootstrap.min.js"></script>
-                    <script type="text/javascript" src="js/fixtures.js"></script>
-
-                </body>
-                </html>
+                    <?php get_footer (); ?>
