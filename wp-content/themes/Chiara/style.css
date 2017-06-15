@@ -1,3 +1,84 @@
-body {
+.sanna-form{
+	padding: 10px 200px 10px 200px;
+}
+
+.h1{
+	font-size: 60px;
+    color: #fff;
+    
+}
+
+.h3{
+	font-size: 20px;
+    color: #fff;
+}
+
+textarea.input-lg {
+    height: 218px;
+}
+
+.label{
+	color: #fff;
+}
+
+
+
+
+.navbar-brand{
+	background: url(./images/logo fale.gif) no-repeat;
+	width: 200px;
+    height: 66px;
+
+
+ body{
+   	background: url(./images/screenshot.png) no-repeat;
+	background-size: cover;
+   }
 	
+   
+}
+img{
+	max-width: 100%;
+}
+
+.jumbotron{
+	background: url("./images/screenshot.png") no-repeat;
+	background-size: cover;
+	min-height: 800px;
+	padding-bottom: 20px;
+}
+
+.navbar-default{
+	background: transparent;
+	border-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 750;
+}
+
+.row-form .col-lg-12 {
+    padding: 50px 0 50px 0;
+}
+
+.row-form {
+    padding: 0px 10% 100px 10%;
+}
+
+.kiara {
+	padding-bottom: 100px;
+	color: #000;
+}
+
+
+
+@media (max-width: 750px) {
+    .navbar-default .navbar-collapse {
+        background-color: rgba(0, 0, 0, 0.2);
+        border-color: transparent;
+    }
+
+
 }
